@@ -1,0 +1,29 @@
+#container{
+    background-color: sandybrown;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+.slot {
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+    background-color:white;
+    overflow: hidden;
+}
+.slot > .item{
+    text-align: center;
+    line-height: 250px;
+    font-size: 7em;
+    animation: sample 5s infinite;
+}
+
+@keyframes sample{
+    0%{
+            transform: translateY(300px);
+    }
+    100%{
+                transform: translateY(-300px);
+
+    }
+}
